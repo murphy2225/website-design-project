@@ -1,0 +1,145 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: rgb(32, 32, 42);
+  color: white;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.flex-2 {
+  flex: 2;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+.justify-right {
+  justify-content: right;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.margin-r-16 {
+  margin-right: 16px;
+}
+
+.button {
+  border: none;
+  background-color: rgb(225, 108, 79);
+  color: white;
+  padding: 4px 32px;
+  margin-top: 28px;
+  border-radius: 5px;
+}
+
+.width-80 {
+  width: 80%;
+}
+
+.width-60 {
+  width: 60%;
+}
+
+.margin-auto {
+  margin: 0 auto;
+}
+
+.margin-r-64 {
+  margin-right: 64px;
+}
+
+.margin-t-40 {
+  margin-top: 40px;
+}
+
+.margin-t-80 {
+  margin-top: 80px;
+}
+
+.margin-t-32 {
+  margin-top: 32px;
+}
+
+.margin-r-32 {
+  margin-right: 32px;
+}
+
+.padding-32 {
+  padding: 32px;
+}
+
+.padding-y-16 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.t-center {
+  text-align: center;
+}
+
+.t-end {
+  text-align: end;
+}
+
+.margin-l-64 {
+  margin-left: 64px;
+}
+
+.margin-t-60 {
+  margin-top: 60px;
+}
+
+.margin-b-32 {
+  margin-bottom: 32px;
+}
+
+#left-border {
+  border-left: 2px solid white;
+  padding-left: 32px;
+}
+
+footer {
+  background-color: rgb(32, 32, 42);
+  color: white;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer hr {
+  border-color: white;
+}
+
+footer .copyright {
+  font-size: 16px;
+  padding-bottom: 20px;
+}

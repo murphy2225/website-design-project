@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/reservation.css" />
+    <title>Restaurant</title>
+  </head>
+  <body>
+    <header>
+      <div class="flex justify-between width-80 margin-auto">
+        <div id="logo">
+          <a href="index.html">Restaurant</a>
+        </div>
+        <div class="flex justify-right padding-32">
+          <div class="margin-r-16"><a href="aboutus.html">About Us</a></div>
+          <div class="margin-r-16"><a href="review.html">Review</a></div>
+          <div class="margin-r-16">
+            <a href="reservation.html">Reservation</a>
+          </div>
+          <div class="margin-r-64"><a href="menu.html">Menu</a></div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <h1 class="t-center">Reservation Information</h1>
+      <form class="width-60 margin-auto padding-32 padding-y-16">
+        <div>
+          <h2>Customer Information</h2>
+        </div>
+        <div class="flex">
+          <div class="flex-1 margin-r-32">
+            <label for="first-name">First Name</label><br />
+            <input type="text" id="first-name" />
+          </div>
+          <div class="flex-1">
+            <label for="last-name">Last Name</label><br />
+            <input type="text" id="last-name" />
+          </div>
+        </div>
+        <div>
+          <label for="email">Email</label><br />
+          <input type="email" id="email" />
+        </div>
+        <div>
+          <label for="phone">Phone</label><br />
+          <input type="number" id="phone" />
+        </div>
+        <div>
+          <h2>Reservation Dates</h2>
+        </div>
+        <div class="flex">
+          <div class="flex-1 margin-r-32">
+            <label for="date">Date</label><br />
+            <input type="date" id="date" />
+          </div>
+          <div class="flex-1">
+            <label for="time">Time</label><br />
+            <input type="time" id="time" />
+          </div>
+        </div>
+        <div class="t-end">
+          <input type="button" value="Reservation" />
+        </div>
+      </form>
+    </main>
+    <footer class="margin-t-40">
+      <div class="flex width-80 margin-auto">
+        <div class="flex-1 margin-t-32 margin-b-32">
+          <a href="index.html">Restaurant</a>
+        </div>
+        <div class="flex flex-2">
+          <div class="flex-1 margin-t-32 margin-b-32">
+            <div><a href="reservation.html">Reservation</a></div>
+            <div><a href="about us.html">About us</a></div>
+            <div><a href="review.html">Review</a></div>
+          </div>
+          <div class="flex-1 margin-t-32 margin-b-32">
+            <div><a href="menu.html">Menu</a></div>
+          </div>
+        </div>
+        <div class="flex">
+          <div class="flex-1 margin-t-32 margin-b-32" id="left-border">
+            <div>mobile</div>
+            <div>message</div>
+            <div>location</div>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="flex copyright justify-center">
+        <div>&copy; 2024 , TravelWorld, Inc. All Rights Reserved</div>
+      </div>
+    </footer>
+  </body>
+</html>
