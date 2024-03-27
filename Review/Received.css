@@ -1,0 +1,18 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffe9e9;
+    color: black;
+}
+
+
+section{
+    min-height: 100vh;
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+    /* padding-top: 240px; */
+    justify-content: center;
+    align-items: center;
+}

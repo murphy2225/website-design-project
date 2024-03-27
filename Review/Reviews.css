@@ -1,0 +1,240 @@
+:root{
+    --primary-color: #FE9D9C;
+    --outline: #D1B8B8;
+}
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    overflow-x: hidden;
+}
+
+.review__section{
+    display: flex ;
+    position: relative;
+    background: url('./assets/bgimg.png');
+    background-position: center;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:32px;
+    color:white;
+}
+
+.review__section article {
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 9;
+    gap: 48px;
+}
+
+.review__header{
+    position: relative;
+    /* display: none; */
+    font-size: 48px;
+    text-align: center;
+   
+}
+.review__header::before{
+    content:"";
+    position: absolute;
+    border-bottom:8px solid var(--primary-color);
+    width: 30%;
+    border-radius: 8px;
+    bottom: -16px;
+left: 50%;
+transform: translateX(-50%);
+}
+
+.review__subtext{
+    text-align: center;
+
+}
+
+
+
+.review__form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding:32px; */
+}
+.review__form fieldset{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+    padding: 32px 64px;
+    background-color: white;
+    width: 70%;
+    height: 50%;
+    align-items: center;
+    border-radius: 36px;
+}
+
+.review__form textarea{
+    width: 100%;
+    height: 100px;
+    padding:12px 16px;
+    font-size: 14px;
+    border: 2px solid var(--outline);
+    border-radius: 8px;
+    background-color: rgba(251, 247, 247, 1);
+}
+.review__form input{
+    width: 100%;
+
+    padding:12px 16px; 
+    font-size: 14px;
+    border:2px solid var(--outline);
+    border-radius: 8px;
+    background-color: rgba(251, 247, 247, 1);
+}
+.input__group{
+    /* background-color: red;  */
+
+    width: 100%;
+    display: flex;
+ gap: 8px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+.rating__group{
+    display: flex;
+    gap:8px;
+}
+
+.rating__group button{
+    outline:  none;
+    border: 2px solid var(--outline);
+    background-color: transparent;
+    padding: 4px 16px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.submit-review{
+    background-color: var(--primary-color);
+    color: white;
+    outline: none;
+    border:  none;
+    border-radius: 8px;
+    padding: 14px 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    cursor: pointer;
+    margin-top: 24px;
+}
+/* .review__card__container form{
+    padding:32px;
+} */
+
+.review__section::before{
+    content: "";
+    background-color:rgba(0, 0, 0, 0.84) ;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* z-index: ; */
+    
+}
+
+.Testimonials__section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 100px; */
+    min-height: 50vh;
+}
+
+.testimonial__header{
+    position: relative;
+    font-size: 36px;
+    margin: 56px;
+}
+.testimonial__header::before{
+    content:"";
+    position: absolute;
+    border-bottom:6px solid var(--primary-color);
+    width: 50%;
+    border-radius: 8px;
+    bottom: -16px;
+left: 50%;
+transform: translateX(-50%);
+}
+
+.button__controllers{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.button__controllers button{
+    background-color: var(--primary-color);
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Testimonials cards section */
+.testimonial__card{
+    display:flex;
+    flex-direction: column;
+    width: 600px;
+    gap: 16px;
+    box-shadow: 0px 0px 5.3px 0px rgba(0, 0, 0, 0.308);
+border-radius: 16px;
+padding: 22px 44px;
+}
+.card__icons{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.testimonial__card p{
+    /* display:none; */
+    /* margin-bottom: 16px; */
+}
+
+.card__person{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.card__stack{
+    position: relative;
+    display: flex;
+    margin-top: 100px;
+    gap: 48px;
+    min-width: 1500px;
+    transition: .4s ease-in-out;
+/* translate: 35%; */
+left: 0px;
+    margin-bottom: 150px;
+}
+
+.selected{
+    background-color: var(--primary-color) !important;
+}
