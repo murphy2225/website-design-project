@@ -1,0 +1,58 @@
+/* Common styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.width-80 {
+    width: 80%;
+}
+
+.margin-auto {
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-right {
+    justify-content: flex-end;
+}
+
+.padding-32 {
+    padding: 32px 0;
+}
+
+.margin-t-40 {
+    margin-top: 40px;
+}
+
+.menu-section {
+    margin-bottom: 40px;
+}
+
+.menu-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.menu-table th,
+.menu-table td {
+    border-bottom: 1px solid #ccc;
+    padding: 12px;
+    text-align: left;
+}
+
+.menu-table th {
+    background-color: #f2f2f2;
+}
+
+.menu-item:last-child {
+    border-bottom: none;
+}
