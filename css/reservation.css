@@ -12,7 +12,7 @@ input {
 input[type="button"] {
   width: 30%;
   border: none;
-  background-color: rgb(225, 108, 79);
+  background-color: #ff9c9c;
   color: white;
   padding: 4px 32px;
   margin-top: 80px;

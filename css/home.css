@@ -9,6 +9,17 @@
   position: relative;
 }
 
+.arrow.material-symbols-outlined {
+  font-size: 70px;
+  color: white;
+  cursor: pointer;
+  margin: 0 24px;
+}
+
+.arrow:hover {
+  color: #2a67bd;
+}
+
 .absolute {
   position: absolute;
 }
